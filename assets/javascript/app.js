@@ -99,6 +99,7 @@ var naturalForce = ["tornado", "hurricane", "earthquake", "tsunami", "volcano", 
 
       $('.forceImage').on('click', function(){
         
+        
           var state = $(this).attr('data-state'); 
             console.log(state);
           
